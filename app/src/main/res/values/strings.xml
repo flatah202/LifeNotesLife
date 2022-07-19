@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LifeNotes</string>
+    <string name="NewNote">New Note</string>
+    <string name="Title">Title</string>
+    <string name="Desc">Description</string>
+    <string name="AllNotes">All Notes</string>
+    <string name="Save">Save</string>
+    <string name="Delete">Delete</string>
+    <string name="Work">Work</string>
+    <string name="Shopping">Shopping</string>
+    <string name="Studying">Studying</string>
+    <string name="TODOList">To DO List</string>
+    <string name="Reading">Reading</string>
+    <string name="Traveling">Traveling</string>
+    <string name="DailyGoals">Daily Goals</string>
+    <string name="Weekly">Weekly Goals</string>
+    <string name="Monthly">Monthly Goals</string>
+    <string name="Yearly">Yearly Goals</string>
+    <string name="Money">Financially</string>
+</resources>

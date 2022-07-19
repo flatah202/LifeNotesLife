@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ملاحظات الحياة</string>
+    <string name="NewNote">ملاحظة جديدة</string>
+    <string name="Title">العنوان</string>
+    <string name="Desc">الوصف</string>
+    <string name="AllNotes">جميع الملاحظات</string>
+    <string name="Save">حفظ</string>
+    <string name="Delete">حذف</string>
+    <string name="Work">العمل</string>
+    <string name="Shopping">التسوق</string>
+    <string name="Studying">الدراسة</string>
+    <string name="TODOList">مهام مطلوبة</string>
+    <string name="Reading">القراءة</string>
+    <string name="Traveling">السفر</string>
+    <string name="DailyGoals">أهداف يومية</string>
+    <string name="Weekly">أهداف اسبوعية</string>
+    <string name="Monthly">أهداف شهرية</string>
+    <string name="Yearly">أهداف سنوية</string>
+    <string name="Money">الادارة المالية</string>
+</resources>

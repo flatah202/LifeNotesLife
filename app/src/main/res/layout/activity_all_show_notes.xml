@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    tools:context=".AllShowNotes">
+
+
+    <TextView
+        android:id="@+id/allNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:text="@string/AllNotes"
+        android:textColor="#FAFF9F20"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+
+    <ListView
+        android:id="@+id/showAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/addNewNote"
+        android:layout_below="@+id/allNotes"
+        android:layout_marginBottom="-92dp">
+
+
+    </ListView>
+
+
+    <Button
+        android:id="@+id/addNewNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="107dp"
+        android:clickable="true"
+        android:text="Add New Note"
+        android:onClick="AddNewNotes"
+        android:textAlignment="center" />
+
+</RelativeLayout>
