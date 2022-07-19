@@ -25,7 +25,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddNewNote" />
+        <activity android:name=".AddNewNote"
+
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            >
+
+
+        </activity>
         <activity android:name=".AllShowNotes" />
     </application>
 

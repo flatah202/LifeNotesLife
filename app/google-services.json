@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "884607349628",
+    "firebase_url": "https://my-first-app-80eea.firebaseio.com",
+    "project_id": "my-first-app-80eea",
+    "storage_bucket": "my-first-app-80eea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884607349628:android:738cf72c0acc53ef9eeaf9",
+        "android_client_info": {
+          "package_name": "mf.o.self_educated.lifenotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884607349628-v1sf6gv5a1bkar3d9edh7jejqpp13dv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbqxhjWe0aGQKjVYX2fPVbcGCAKDi7908"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884607349628-v1sf6gv5a1bkar3d9edh7jejqpp13dv2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

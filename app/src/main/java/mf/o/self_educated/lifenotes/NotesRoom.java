@@ -31,7 +31,7 @@ public class NotesRoom extends AppCompatActivity {
 
         if(title != null || desc != null) {
             titleShow.setText("TITLE: " +title);
-            descShow.setText("DESC: " +desc);
+            descShow.setText("DESC: \n" +desc);
         }
 
 
