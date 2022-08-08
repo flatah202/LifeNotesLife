@@ -23,14 +23,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         icon =(ImageView) findViewById(R.id.iconNote);
 
-        /**
+        /*
          * Here is where the icon shows for 5 second than despair     */
 
         timer = new Timer();
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
-                Intent intent = new Intent(MainActivity.this,AddNewNote.class);
+                Intent intent = new Intent(MainActivity.this,AllShowNotes.class);
                 startActivity(intent);
                 finish();
             }// End of run

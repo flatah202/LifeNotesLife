@@ -2,8 +2,8 @@ package mf.o.self_educated.lifenotes;
 
 public class NotesList {
 
-        // variables for our Notes
-        // name and description.
+        /** variables for our Notes
+        name and description.**/
         private String TitleNotes;
         private String DescriptionNotes;
 
