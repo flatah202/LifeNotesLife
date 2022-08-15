@@ -3,10 +3,8 @@ package mf.o.self_educated.lifenotes;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.widget.ImageView;
-
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -35,5 +33,8 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }// End of run
         } , 5000 );
-    }
-}
+
+    }// End of the onCreate method
+
+
+}// The end of MainActivity class

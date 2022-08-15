@@ -7,7 +7,14 @@ public class NotesList {
         private String TitleNotes;
         private String DescriptionNotes;
 
-        // creating constructor for our variables.
+
+
+    //empty constructor
+    public NotesList() {
+
+    }// End of the empty constructor
+
+    // creating constructor for our variables.
         public NotesList(String titleNotes, String descriptionNotes) {
             this.TitleNotes = titleNotes;
             this.DescriptionNotes = descriptionNotes;

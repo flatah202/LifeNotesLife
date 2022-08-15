@@ -24,6 +24,8 @@ import java.util.Map;
 
 
 public class AddNewNote extends AppCompatActivity {
+
+    //initialize the variables
     EditText titleInput , descInput;
     FirebaseAuth firebaseAuth;
     FirebaseFirestore fireStore;
@@ -40,6 +42,10 @@ public class AddNewNote extends AppCompatActivity {
 
         titleInput = (EditText) findViewById(R.id.TitleInput);
         descInput = (EditText) findViewById(R.id.DescriptionInput);
+
+        /*
+        * I use toolbar as the input or EditText
+        * */
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -69,6 +75,8 @@ public class AddNewNote extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "Both are Require", Toast.LENGTH_SHORT).show();
         }
         else {
+
+            // making the DocumentReference in firebase whit name and path
             DocumentReference reference = fireStore.collection("Notes").document("All Notes").collection("my Notes").document();
             Map<String , Object> note = new HashMap<>();
             note.put("TitleNotes",title);
@@ -79,7 +87,7 @@ public class AddNewNote extends AppCompatActivity {
                 @Override
                 public void onSuccess(Void unused) {
                     Toast.makeText(getApplicationContext(), "The note created successful", Toast.LENGTH_SHORT).show();
-                    startActivity(  new Intent(AddNewNote.this, NotesRoom.class));
+                    startActivity(  new Intent(AddNewNote.this, AllShowNotes.class));
 
                 }
             }).addOnFailureListener(new OnFailureListener() {

@@ -30,7 +30,9 @@
         android:layout_height="match_parent"
         android:layout_above="@+id/AddNewNotesButton"
         android:layout_below="@id/AllNotes"
-        android:layout_marginBottom="-155dp" />
+        android:layout_marginBottom="-155dp"
+        android:scrollbars="vertical"
+        />
 
 
 

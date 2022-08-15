@@ -14,7 +14,7 @@
         android:theme="@style/Theme.LifeNotes"
         tools:targetApi="31">
         <activity
-            android:name=".NotesRoom"
+            android:name=".notesRoom"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
